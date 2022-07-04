@@ -100,6 +100,10 @@ title: Classes e Objetos
 
 ---
 
+# Método construtor
+
+O método construtor é o responsável por fazer a inicialização dos objetos.  
+Nele ocorrem todos os passos para que o nosso objeto seja criado com sucesso.
 
 ---
 layout: two-cols
