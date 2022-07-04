@@ -16,7 +16,7 @@ css: unocss
 Entendendo melhor a Programação Orientada a Objetos
 
 <!--
-- Dar boa tarde/boa noite ao pessoal
+- Dar boa noite ao pessoal
 - Agradecer pela presença
 - Comentar sobre o tema da masterclass
 - Deixar as apresentações para o próximo slide
@@ -30,14 +30,23 @@ title: Quem somos
 
 # André Vicente
 
+<img src="images/andre.jpg" class="h-40 mb-5 rounded shadow" />
+
 - Analista de currículo na Trybe
+- Analista de Sistemas
+- Adora Python, animes
+
 
 ::right::
 
 
 # Thays Costa
 
+<img src="images/thays.jpg" class="h-40 mb-5 rounded shadow" />
+
 - Analista de currículo na Trybe
+- Beyonder
+- Adora back-end, dormir e gatos
 
 ---
 layout: quote
