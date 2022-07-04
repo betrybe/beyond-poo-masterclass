@@ -1,5 +1,5 @@
 ---
-theme: default
+theme: seriph
 background: ./images/buildings.jpg
 class: 'text-center'
 highlighter: shiki
