@@ -100,9 +100,44 @@ title: Classes e Objetos
 
 ---
 
+
+---
+layout: two-cols
+title: Classes
 ---
 
-# Classes
+# Classes em Python
+
+```python {all|3,5,7}
+# Utiliza-se a palavra reservada `class` seguida
+# do nome da classe para criá-la
+class Person:
+    # Método "construtor"
+    def __init__(self):
+        # Não faz nada
+        pass 
+```
+
+::right::
+
+# Classes em TypeScript
+
+```typescript {all|3,5,7-8}
+// Utiliza-se a palavra reservada `class` seguida
+// do nome da classe para criá-la, seguida de chaves
+class Person {
+    // Método construtor
+    constructor() {
+        // Não faz nada
+    }
+}
+```
+
+<style>
+ .slidev-code {
+  margin-right: 10px;
+}
+</style>
 
 --- 
 
