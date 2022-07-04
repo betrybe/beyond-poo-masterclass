@@ -89,7 +89,16 @@ title: Classes e Objetos
 
 ---
 
-# Classes e objetos
+# Atributos e métodos
+
+<v-clicks>
+
+- Atributos são variáveis dentro do contexto de uma classe/objeto
+- Métodos são funções dentro do contexto de uma classe/objeto
+
+</v-clicks>
+
+---
 
 ---
 
