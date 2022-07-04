@@ -16,12 +16,12 @@ css: unocss
 Entendendo melhor a Programação Orientada a Objetos
 
 <!--
+André
 - Dar boa noite ao pessoal
 - Agradecer pela presença
 - Comentar sobre o tema da masterclass
 - Deixar as apresentações para o próximo slide
 -->
-
 
 ---
 layout: two-cols
@@ -59,12 +59,17 @@ Programação orientada a objetos é um paradigma de programação baseado no co
 
 [^1]: [Programação orientada a objetos - Wikipedia](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_orientada_a_objetos)
 
+<!-- Thays -->
 ---
 layout: image-right
 image: ./images/forest.jpg
 ---
 
 # História
+
+<!-- Fica por último -->
+<!-- Falar que é um paradigma, e nem todo mundo/todo projeto precisa seguir -->
+<!-- André -->
 
 ---
 layout: two-cols
@@ -77,11 +82,13 @@ title: Classes e Objetos
 
 - Dão forma aos objetos
 - São abstratas
+  - 💡Isso não tem a ver com "classes abstratas", que serão vistas mais à frente
 - Definem atributos e comportamentos
 - É o caso genérico
 - Exemplo: Classe Pessoa
 
 </v-clicks>
+
 ::right::
 
 # Objetos
@@ -96,6 +103,7 @@ title: Classes e Objetos
 
 </v-clicks>
 
+<!-- André -->
 ---
 
 # Atributos e métodos
@@ -107,6 +115,7 @@ title: Classes e Objetos
 
 </v-clicks>
 
+<!-- André -->
 ---
 
 # Método construtor
@@ -114,6 +123,7 @@ title: Classes e Objetos
 O método construtor é o responsável por fazer a inicialização dos objetos.  
 Nele ocorrem todos os passos para que o nosso objeto seja criado com sucesso.
 
+<!-- Thays -->
 ---
 layout: two-cols
 title: Classes
@@ -152,30 +162,42 @@ class Person {
 }
 </style>
 
+<!-- Thays -->
 --- 
 
 # Objetos
 
+<!-- André -->
 ---
 
 # Pilares
 
+<!-- Thays -->
 ---
 
 # Encapsulamento
 
+<!-- Thays -->
 ---
 
 # Abstração
 
+<!-- André -->
+---
+
+# Interfaces
+
+<!-- André -->
 ---
 
 # Herança
 
+<!-- Thays -->
 ---
 
-# Polimorfismo
+# ~~Poliformismo~~ Polimorfismo
 
+<!-- André -->
 ---
 
 # Exemplos
@@ -184,30 +206,37 @@ class Person {
 
 # SOLID
 
+<!-- Thays -->
 ---
 
 # Single Responsibility Principle
 
+<!-- Thays -->
 ---
 
 # Open/Closed Principle 
 
+<!-- André -->
 ---
 
 # Liskov's Substitution Principle
 
+<!-- André -->
 ---
 
 # Interface Segregation Principle
 
+<!-- Thays -->
 ---
 
 # Dependency Injection
 
+<!-- Thays -->
 ---
 
 # Dependency Inversion Principle
 
+<!-- André -->
 ---
 
 # Exemplos
@@ -217,6 +246,11 @@ class Person {
 # Fontes
 
 ---
+layout: fact
+title: Encerramento
+---
 
-# Encerramento
+# Obrigueido!
 
+<!-- É obrigueido mesmo
+Referência: https://youtu.be/Lv0RmiLgRA4 -->
