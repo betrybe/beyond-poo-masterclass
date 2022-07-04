@@ -58,6 +58,36 @@ image: ./images/forest.jpg
 # História
 
 ---
+layout: two-cols
+title: Classes e Objetos
+---
+
+# Classes
+
+<v-clicks>
+
+- Dão forma aos objetos
+- São abstratas
+- Definem atributos e comportamentos
+- É o caso genérico
+- Exemplo: Classe Pessoa
+
+</v-clicks>
+::right::
+
+# Objetos
+
+<v-clicks>
+
+- São instâncias da classe
+- São concretos
+- Possuem valores diferentes nos atributos
+- É o caso específico
+- Exemplo: André, que é uma pessoa
+
+</v-clicks>
+
+---
 
 # Classes e objetos
 
