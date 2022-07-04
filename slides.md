@@ -164,8 +164,60 @@ class Person {
 
 <!-- Thays -->
 --- 
+layout: two-cols
+title: Objetos
+--- 
 
-# Objetos
+# Objetos em Python
+
+```python
+class Person:
+    def __init__(self, name: str, age: int):
+        self.name = name
+        self.age = age
+
+    def saudação(self, message: str):
+        print(f"{self.name}: {message}")
+
+
+andre = Person("André", 23)
+thays = Person("Thays", 30)
+
+print(andre.name) # Saída: André
+thays.saudação("Olar!") # Saída: Thays: Olar!
+```
+
+::right::
+
+# Objetos em TS
+
+```typescript
+class Person {
+    public name: string;
+    public age: number;
+
+    constructor(name: string, age: number) {
+        this.name = name;
+        this.age = age;
+    }
+
+    saudação(message: string) {
+        console.log(`${this.name}: ${message}`);
+    }
+}
+
+const andre = new Person("André", 23);
+const thays = new Person("Thays", 30);
+
+console.log(thays.name); // Saída: Thays
+andre.saudação("Hellou"); // Saída: André: Hellou
+```
+
+<style>
+ .slidev-code {
+  margin-right: 10px;
+}
+</style>
 
 <!-- André -->
 ---
