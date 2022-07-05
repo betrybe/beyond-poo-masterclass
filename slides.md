@@ -224,6 +224,17 @@ andre.saudação("Hellou"); // Saída: André: Hellou
 
 # Pilares
 
+A Orientação a Objetos possui quatro pilares muito importantes:
+
+<v-clicks>
+
+- Abstração
+- Encapsulamento
+- Herança
+- Polimorfismo
+
+</v-clicks>
+
 <!-- Thays -->
 ---
 
