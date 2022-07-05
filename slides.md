@@ -32,9 +32,7 @@ title: Quem somos
 
 <img src="images/andre.jpg" class="h-40 mb-5 rounded shadow" />
 
-- Analista de currículo na Trybe
-- Analista de Sistemas
-- Adora Python, animes
+André Vicente é Técnico em Eletrônica, Analista de Sistemas e quase Engenheiro de Computação. Adora programar e ensinar programação. Adora animes também. Não tem horas vagas, mas de vez em quando perde umas partidas CS:GO. Hoje é Analista de Currículo na Trybe.
 
 
 ::right::
@@ -44,9 +42,7 @@ title: Quem somos
 
 <img src="images/thays.jpg" class="h-40 mb-5 rounded shadow" />
 
-- Analista de currículo na Trybe
-- Beyonder
-- Adora back-end, dormir e gatos
+Contadora de formação e programadora formada pela Trybe na turma 07, é uma entusiasta da participação feminina na área da tecnologia e apaixonada por livros, quadrinhos e heavy metal.
 
 ---
 layout: quote
