@@ -51,6 +51,8 @@ class: 'text-white'
 
 # Definição
 
+&nbsp;
+
 Programação orientada a objetos é um paradigma de programação baseado no conceito de "objetos", que podem conter dados na forma de campos, também conhecidos como atributos, e códigos, na forma de procedimentos, também conhecidos como métodos. [^1]
 
 [^1]: [Programação orientada a objetos - Wikipedia](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_orientada_a_objetos)
@@ -62,6 +64,8 @@ image: ./images/forest.jpg
 ---
 
 # História
+
+&nbsp;
 
 <!-- Fica por último -->
 <!-- Falar que é um paradigma, e nem todo mundo/todo projeto precisa seguir -->
@@ -115,6 +119,8 @@ title: Classes e Objetos
 ---
 
 # Método construtor
+
+&nbsp;
 
 O método construtor é o responsável por fazer a inicialização dos objetos.  
 Nele ocorrem todos os passos para que o nosso objeto seja criado com sucesso.
@@ -219,6 +225,8 @@ andre.saudação("Hellou"); // Saída: André: Hellou
 ---
 
 # Pilares
+
+&nbsp;
 
 A Orientação a Objetos possui quatro pilares muito importantes:
 
