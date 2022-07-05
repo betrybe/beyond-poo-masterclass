@@ -249,7 +249,19 @@ A Orientação a Objetos possui quatro pilares muito importantes:
 
 # Abstração
 
-<!-- André -->
+&nbsp;
+
+A abstração é a capacidade de criar uma forma simples de interagir com os objetos sem precisar entender como ele faz as coisas.  
+
+Se trata do código que usa sua classe não precisar saber como ela funciona, para que ela possa mudar sem interferir nele.
+
+<!-- André
+
+Por exemplo um método `enviar` dentro de um objeto da classe `email` pode ser chamado passando a mensagem e a pessoa destinatária, e você não precisa saber como esse e-mail é enviado.  
+Tudo o que você precisa fazer é chamar o método correto com os parâmetros corretos.  
+Um ponto muito importante a ser ressaltado é que a abstração não é feita pensada necessariamente para a pessoa que vai utilizar a classe, mas para o código que vai utilizá-la.  
+Se seu código fora da classe `email` precisa entender detalhes de funcionamento do protocolo SMTP para enviar o email, você não está criando as abstrações da forma correta, por mais que você saiba usar o SMTP.  
+   -->
 ---
 
 # Interfaces
