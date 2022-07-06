@@ -44,6 +44,12 @@ André Vicente é Técnico em Eletrônica, Analista de Sistemas e quase Engenhei
 
 Contadora de formação e programadora formada pela Trybe na turma 07, é uma entusiasta da participação feminina na área da tecnologia e apaixonada por livros, quadrinhos e heavy metal.
 
+<style>
+ .slidev-layout {
+  margin-right: 10px;
+}
+</style>
+
 ---
 layout: quote
 class: 'text-white'
@@ -158,12 +164,6 @@ class Person {
 }
 ```
 
-<style>
- .slidev-code {
-  margin-right: 10px;
-}
-</style>
-
 <!-- Thays -->
 --- 
 layout: two-cols
@@ -215,13 +215,18 @@ console.log(thays.name); // Saída: Thays
 andre.saudação("Hellou"); // Saída: André: Hellou
 ```
 
-<style>
- .slidev-code {
-  margin-right: 10px;
-}
-</style>
+<!-- André 
 
-<!-- André -->
+Pontos a comentar:
+- Construtor
+- Atributos da instância
+  - Nomes dos parâmetros do construtor não precisam ser iguais aos nomes dos atributos
+- `self` e `this`
+- Criação dos objetos
+- Acesso aos atributos
+- Acesso aos métodos
+
+-->
 ---
 
 # Pilares
