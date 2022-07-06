@@ -249,7 +249,80 @@ A Orientação a Objetos possui quatro pilares muito importantes:
 
 # Encapsulamento
 
-<!-- Thays -->
+&nbsp;
+
+Garante que atributos ou métodos não sejam visíveis para fora da classe, fazendo com que não seja possível manipulá-los em outro lugar que não dentro dos métodos da própria classe.  
+
+O encapsulamento utiliza os modificadores de visibilidade dos atributos e métodos para garantir que eles só poderão ser acessados nos locais corretos.  
+Os modificadores podem variar de linguagem pra linguagem:
+
+<v-clicks>
+
+- public
+- private
+- protected
+- readonly (no TypeScript)
+
+</v-clicks>
+
+<!-- Thays 
+
+Os modificadores mais comuns são os 3 primeiros
+
+-->
+
+---
+layout: two-cols
+title: Encapsulamento - Exemplo
+---
+
+# Python
+
+```python {3|4|5|all}
+class Person:
+    def __init__(self, name: str, age: int, height: int):
+        self.name = name # público
+        self._age = age # privado (convenção)
+        self.__height = height # privado
+
+    def print_height(self):
+        print(self.__height)
+
+
+andre = Person("André", 23, 176)
+print(andre.name) # Saída: André
+print(andre._age) # Saída: 23
+andre.print_height() # Saída: 176
+```
+
+::right::
+
+# Typescript
+
+```typescript {none|3|4|5|all}
+class Person{
+    public name: string;
+    private _age: number;
+    protected _height: number;
+    readonly heightTimesAge: number;
+
+    constructor(name: string, age: number, height: number) {
+        this.name = name;
+        this._age = age;
+        this._height = height;
+        this.heightTimesAge = height * age;
+    }
+
+    printAge() {
+        console.log(this._age)
+    }
+}
+
+const thays = new Person("Thays", 30, 201)
+console.log(thays.name) // Saída: Thays
+thays.printAge() // Saída: 30
+```
+
 ---
 
 # Abstração
