@@ -3,7 +3,7 @@ theme: seriph
 background: ./images/buildings.jpg
 class: 'text-center'
 highlighter: shiki
-lineNumbers: true
+lineNumbers: false
 info: |
   Slide para a apresentação da masterclass de POO para a rede Beyond Trybe
 drawings:
