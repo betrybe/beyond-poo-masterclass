@@ -265,7 +265,20 @@ São boas práticas
 
 # Single Responsibility Principle
 
-<!-- Thays -->
+<v-clicks>
+
+- Diz que uma entidade (classe, método, função, etc) deve ter apenas uma única responsabilidade;
+- Implica que a entidade só deve possuir um motivo para ser alterada
+- A entidade tende a fazer aquela coisa que ela faz de forma bem feita
+- Garante diminuição de complexidade
+- Ajuda na legibilidade
+- Favorece a reutilização
+
+</v-clicks>
+
+<!-- 
+Exemplo: Componentes React
+-->
 ---
 
 # Open/Closed Principle 
