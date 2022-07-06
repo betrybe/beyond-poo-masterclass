@@ -327,13 +327,6 @@ Após aqui, um exemplo prático -->
 # Dependency Inversion Principle
 
 <!-- André -->
----
-
-# Exemplos
-
----
-
-# Fontes
 
 ---
 layout: fact
