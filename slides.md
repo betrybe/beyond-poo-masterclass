@@ -189,6 +189,8 @@ Se seu código fora da classe `email` precisa entender detalhes de funcionamento
 
 # Interfaces
 
+<v-clicks>
+
 - Funciona como uma espécie de contrato a ser implementado em uma classe;
 - Determina as assinaturas dos métodos e quais atributos devem ser **obrigatoriamente** implementados;
 - Não há implementação de código;
@@ -197,7 +199,8 @@ Se seu código fora da classe `email` precisa entender detalhes de funcionamento
 
 </v-clicks>
 
-<!-- Após isso, mostrar exemplo de código -->
+<!-- Após isso, mostrar exemplo de código
+Lembrar o André de falar sobre classes abstratas -->
 ---
 
 # Herança
