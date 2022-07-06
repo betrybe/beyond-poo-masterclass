@@ -195,15 +195,21 @@ Se seu código fora da classe `email` precisa entender detalhes de funcionamento
 - Não pode ser instanciada;
 - A palavra-chave `implements` marca a implementação de uma interface por uma classe.
 
+</v-clicks>
+
 <!-- Após isso, mostrar exemplo de código -->
 ---
 
 # Herança
 
+<v-clicks>
+
 - É inerente à Classe, não ao objeto;
 - Permite especificação de classes;
 - Onde um objeto da superclasse é esperado, um objeto da subclasse pode ser passado;
 - A palavra-chave `extends` marca a utilização da Herança.
+
+</v-clicks>
 
 <!-- Thays
 
