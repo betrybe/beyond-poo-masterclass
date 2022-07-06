@@ -302,7 +302,16 @@ Em seguida, um exemplo prático -->
 
 # Liskov's Substitution Principle
 
-<!-- André -->
+<v-clicks>
+
+- Diz que objetos em um programa devem ser substituíveis por instâncias de seus subtipos, sem alterar a funcionalidade do programa
+- Os parâmetros de entrada dos métodos das subclasses não podem ser mais específicos
+- Os valores de retorno dos métodos das subclasses não podem ser mais abrangentes
+
+</v-clicks>
+
+<!-- André fala essa parte  
+Após aqui, um exemplo prático -->
 ---
 
 # Interface Segregation Principle
