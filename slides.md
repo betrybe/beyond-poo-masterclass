@@ -136,101 +136,6 @@ Nele ocorrem todos os passos para que o nosso objeto seja criado com sucesso.
 
 <!-- Thays -->
 ---
-layout: two-cols
-title: Classes
----
-
-# Classes em Python
-
-```python {all|3,5,7}
-# Utiliza-se a palavra reservada `class` seguida
-# do nome da classe para criá-la
-class Person:
-    # Método "construtor"
-    def __init__(self):
-        # Não faz nada
-        pass 
-```
-
-::right::
-
-# Classes em TypeScript
-
-```typescript {all|3,5,7-8}
-// Utiliza-se a palavra reservada `class` seguida
-// do nome da classe para criá-la, seguida de chaves
-class Person {
-    // Método construtor
-    constructor() {
-        // Não faz nada
-    }
-}
-```
-
-<!-- Thays -->
---- 
-layout: two-cols
-title: Objetos
---- 
-
-# Objetos em Python
-
-```python
-class Person:
-    def __init__(self, name: str, age: int):
-        self.name = name
-        self.age = age
-
-    def saudação(self, message: str):
-        print(f"{self.name}: {message}")
-
-
-andre = Person("André", 23)
-thays = Person("Thays", 30)
-
-print(andre.name) # Saída: André
-thays.saudação("Olar!") # Saída: Thays: Olar!
-```
-
-::right::
-
-# Objetos em TS
-
-```typescript
-class Person {
-    public name: string;
-    public age: number;
-
-    constructor(name: string, age: number) {
-        this.name = name;
-        this.age = age;
-    }
-
-    saudação(message: string) {
-        console.log(`${this.name}: ${message}`);
-    }
-}
-
-const andre = new Person("André", 23);
-const thays = new Person("Thays", 30);
-
-console.log(thays.name); // Saída: Thays
-andre.saudação("Hellou"); // Saída: André: Hellou
-```
-
-<!-- André 
-
-Pontos a comentar:
-- Construtor
-- Atributos da instância
-  - Nomes dos parâmetros do construtor não precisam ser iguais aos nomes dos atributos
-- `self` e `this`
-- Criação dos objetos
-- Acesso aos atributos
-- Acesso aos métodos
-
--->
----
 
 # Pilares
 
@@ -275,58 +180,6 @@ Os modificadores mais comuns são os 3 primeiros
 -->
 
 ---
-layout: two-cols
-title: Encapsulamento - Exemplo
----
-
-# Python
-
-```python {3|4|5|all}
-class Person:
-    def __init__(self, name: str, age: int, height: int):
-        self.name = name # público
-        self._age = age # privado (convenção)
-        self.__height = height # privado
-
-    def print_height(self):
-        print(self.__height)
-
-
-andre = Person("André", 23, 176)
-print(andre.name) # Saída: André
-print(andre._age) # Saída: 23
-andre.print_height() # Saída: 176
-```
-
-::right::
-
-# Typescript
-
-```typescript {none|3|4|5|all}
-class Person{
-    public name: string;
-    private _age: number;
-    protected _height: number;
-    readonly heightTimesAge: number;
-
-    constructor(name: string, age: number, height: number) {
-        this.name = name;
-        this._age = age;
-        this._height = height;
-        this.heightTimesAge = height * age;
-    }
-
-    printAge() {
-        console.log(this._age)
-    }
-}
-
-const thays = new Person("Thays", 30, 201)
-console.log(thays.name) // Saída: Thays
-thays.printAge() // Saída: 30
-```
-
----
 
 # Abstração
 
@@ -347,12 +200,29 @@ Se seu código fora da classe `email` precisa entender detalhes de funcionamento
 
 # Interfaces
 
+- Funciona como uma espécie de contrato a ser implementado em uma classe;
+- Determina as assinaturas dos métodos e quais atributos devem ser **obrigatoriamente** implementados;
+- Não há implementação de código;
+- Não pode ser instanciada;
+- A palavra-chave `implements` marca a implementação de uma interface por uma classe.
+
 <!-- André -->
 ---
 
 # Herança
 
-<!-- Thays -->
+- É inerente à Classe, não ao objeto;
+- Permite especificação de classes;
+- Onde um objeto da superclasse é esperado, um objeto da subclasse pode ser passado;
+- A palavra-chave `extends` marca a utilização da Herança.
+
+<!-- Thays
+
+- Quando a classe A implementa a interface I, ela deve implementar todos os métodos declarados em I e possuir todos os atributos de I. 
+
+- Quando a classe A herda da classe B, ela já herda todos os métodos e atributos públicos ou protegidos implementados na classe B.
+
+-->
 ---
 
 # ~~Poliformismo~~ Polimorfismo

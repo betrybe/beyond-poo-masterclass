@@ -9,7 +9,7 @@ Conteúdo e slides para a Masterclass de Programação Orientada a Objetos a ser
   - *git https*: `git clone https://github.com/betrybe/beyond-poo-masterclass`
   - *git ssh*: `git clone git@github.com:betrybe/beyond-poo-masterclass.git`
   - *github cli*: `gh repo clone betrybe/beyond-poo-masterclass`
-  - Acesse [a página do projeto no github](https://github.com/betrybe/beyond-poo-masterclass), clique em "Code" e em seguida "Download ZIP". Após o download, extraia o arquivo .zip em algum lugar do sistema de arquivos 
+  - Acesse [a página do projeto no github](https://github.com/betrybe/beyond-poo-masterclass), clique em "Code" e em seguida "Download ZIP". Após o download, extraia o arquivo .zip em algum lugar do sistema de arquivos.
 - Abra a pasta do projeto no terminal
 - Instale as dependências com o comando `npm install`
 - Inicie o servidor de desenvolvimento com o comando `npm run dev`
