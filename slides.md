@@ -244,7 +244,23 @@ Após isso, fazer uma pausa de 10 minutos -->
 
 # SOLID
 
-<!-- Thays -->
+<v-clicks>
+
+- Single Responsibility Principle
+- Open/Closed Principle
+- Liskov Substitution Principle
+- Interface Segregation Principle
+- Dependency Inversion Principle
+
+</v-clicks>
+
+<!-- 
+Comentar que solid é um acrônimo para 5 princípios  
+Nem todos são restritos à POO, mas se dão bem com ela  
+É bom cumprir todos os 5 ao mesmo tempo  
+Ajudam a organizar código, melhorar legibilidade e facilitar manutenção  
+São boas práticas
+-->
 ---
 
 # Single Responsibility Principle
