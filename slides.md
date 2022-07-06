@@ -316,6 +316,15 @@ Após aqui, um exemplo prático -->
 
 # Interface Segregation Principle
 
+<v-clicks>
+
+- Diz que interfaces específicas são melhores do que uma única interface para todos os propósitos
+- Diz que não se deve forçar a implementação de métodos que não serão utilizados
+- Consiste em separar uma interface complexa em várias mais simples, que podem ser reutilizadas mais vezes
+- Uma classe pode implementar várias interfaces, caso seja necessário
+
+</v-clicks>
+
 <!-- Thays -->
 ---
 
