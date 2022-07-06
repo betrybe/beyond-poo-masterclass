@@ -287,7 +287,17 @@ Exemplo: Componentes React
 
 # Open/Closed Principle 
 
-<!-- André -->
+<v-clicks>
+
+- Diz que entidades de software devem ser abertas para extensão, mas fechadas para modificação
+- Permite que o código seja mais flexível
+- Permite acrescentar comportamentos sem alterar as entidades existentes
+- É mais simples de entender com exemplo prático, então vamos ver um
+
+</v-clicks>
+
+<!-- André fala essa parte  
+Em seguida, um exemplo prático -->
 ---
 
 # Liskov's Substitution Principle
