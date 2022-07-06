@@ -73,6 +73,9 @@ image: ./images/forest.jpg
 
 &nbsp;
 
+A terminologia envolvendo *objetos* e *orientação* tal como é utilizada atualmente surgiu entre o final da década de 1950 e começo da de 1960.  
+A POO é um paradigma surgido nos anos 1970, que utiliza objetos como elementos fundamentais na construção da solução.  
+
 <!-- Fica por último -->
 <!-- Falar que é um paradigma, e nem todo mundo/todo projeto precisa seguir -->
 <!-- André -->
