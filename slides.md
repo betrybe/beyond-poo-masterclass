@@ -218,12 +218,25 @@ Se seu código fora da classe `email` precisa entender detalhes de funcionamento
 - Quando a classe A herda da classe B, ela já herda todos os métodos e atributos públicos ou protegidos implementados na classe B.
 
 -->
+
+---
+layout: quote
+class: 'text-white' 
 ---
 
 # ~~Poliformismo~~ Polimorfismo
 
+&nbsp;
+
+Polimorfismo é o princípio pelo qual duas ou mais classes derivadas de uma mesma superclasse podem invocar métodos que têm a mesma identificação (assinatura) mas comportamentos distintos, especializados para cada classe derivada, usando para tanto uma referência a um objeto do tipo da superclasse. [^1]
+
+[^1]: [Programação orientada a objetos - DCA Unicamp](https://www.dca.fee.unicamp.br/cursos/PooJava/polimorf/index.html#:~:text=Polimorfismo%20%C3%A9%20o%20princ%C3%ADpio%20pelo,objeto%20do%20tipo%20da%20superclasse.)
+
 <!-- 
-Depois daqui exemplo de código
+Ressaltar que não é Poliformismo  
+Explicar que significa "várias formas"  
+
+Depois daqui exemplo de código  
 Lembrar o André de falar sobre atributos protegidos em classes herdadas
 
 Após isso, fazer uma pausa de 10 minutos -->
