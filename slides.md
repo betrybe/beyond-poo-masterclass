@@ -330,12 +330,32 @@ Após aqui, um exemplo prático -->
 
 # Dependency Injection
 
+<v-clicks>
+
+- Não é um princípio
+- Diz que as dependências devem ser passadas como parâmetro, ao invés de serem criadas diretamente dentro da entidade que as usa
+  - Você pode manter um `valor padrão` para facilitar o uso
+
+</v-clicks>
+
 <!-- Thays -->
 ---
 
 # Dependency Inversion Principle
 
-<!-- André -->
+<v-clicks>
+
+- Diz que entidades de alto nível não devem depender de entidades de baixo nível. Ambos devem depender de abstrações
+- Facilita a alteração das implementações concretas de dependências
+- Facilita o uso de mocks nos testes
+
+</v-clicks>
+
+<!-- André 
+
+Após isso, exemplo  
+Lembrar o André de falar do valor padrão na injeção/inversão de dependências
+-->
 
 ---
 layout: fact
