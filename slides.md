@@ -191,15 +191,14 @@ Se seu código fora da classe `email` precisa entender detalhes de funcionamento
 
 <v-clicks>
 
-- Funciona como uma espécie de contrato a ser implementado em uma classe;
-- Determina as assinaturas dos métodos e quais atributos devem ser **obrigatoriamente** implementados;
-- Não há implementação de código;
-- Não pode ser instanciada;
-- A palavra-chave `implements` marca a implementação de uma interface por uma classe.
+- Funciona como uma espécie de contrato a ser implementado em uma classe
+- Determina as assinaturas dos métodos e quais atributos devem ser **obrigatoriamente** implementados
+- Não há implementação de código
+- Não pode ser instanciada
 
 </v-clicks>
 
-<!-- Após isso, mostrar exemplo de código
+<!-- Após isso, mostrar exemplo de código  
 Lembrar o André de falar sobre classes abstratas -->
 ---
 
@@ -207,10 +206,9 @@ Lembrar o André de falar sobre classes abstratas -->
 
 <v-clicks>
 
-- É inerente à Classe, não ao objeto;
-- Permite especificação de classes;
-- Onde um objeto da superclasse é esperado, um objeto da subclasse pode ser passado;
-- A palavra-chave `extends` marca a utilização da Herança.
+- É inerente à Classe, não ao objeto
+- Permite especificação de classes
+- Onde um objeto da superclasse é esperado, um objeto da subclasse pode ser passado
 
 </v-clicks>
 
@@ -247,6 +245,12 @@ Após isso, fazer uma pausa de 10 minutos -->
 
 # SOLID
 
+&nbsp;
+
+É um acrônimo para 5 princípios.  
+Nem todos são restritos à POO, mas é juntamente com ela que dão mais certo.  
+É bom cumprir todos os 5 ao mesmo tempo!  
+
 <v-clicks>
 
 - Single Responsibility Principle
@@ -258,9 +262,6 @@ Após isso, fazer uma pausa de 10 minutos -->
 </v-clicks>
 
 <!-- 
-Comentar que solid é um acrônimo para 5 princípios  
-Nem todos são restritos à POO, mas se dão bem com ela  
-É bom cumprir todos os 5 ao mesmo tempo  
 Ajudam a organizar código, melhorar legibilidade e facilitar manutenção  
 São boas práticas
 -->
@@ -270,7 +271,7 @@ São boas práticas
 
 <v-clicks>
 
-- Diz que uma entidade (classe, método, função, etc) deve ter apenas uma única responsabilidade;
+- Diz que uma entidade (classe, método, função, etc) deve ter apenas uma única responsabilidade
 - Implica que a entidade só deve possuir um motivo para ser alterada
 - A entidade tende a fazer aquela coisa que ela faz de forma bem feita
 - Garante diminuição de complexidade
